@@ -10,6 +10,7 @@ function ContactItemBody({ name, tag }) {
  );
 }
 
+
 ContactItemBody.propTypes = {
   name: PropTypes.string.isRequired,
   tag:  PropTypes.string.isRequired,
