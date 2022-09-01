@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 function ContactItemBody({ name, tag }) {
  return (
    <div className="contact-item__body">
-     <div className="contact-item__title" contentEditable>{name}</div>
+     <h2 className="contact-item__title">{name}</h2>
      <p className="contact-item__username">@{tag}</p>
    </div>
  );
